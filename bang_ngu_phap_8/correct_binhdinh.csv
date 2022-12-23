@@ -1,0 +1,306 @@
+Sentence,Truth,Prediction,W_error_rate,Bleu_score,Correction
+Tôi đi,ĭnh năm,inh năm .,,,inh năm 
+Anh đi,'nhŏng năm,'nhŏng năm .,,,'nhŏng năm 
+Anh ấy đi,'nhŏng 'nŏh năm,'nhŏng ơ̆i kih .,,,'nhŏng năm 
+Cô ấy đi,Duch 'nŏh năm,duch ơ̆i kih .,,,duch năm 
+Chúng tôi đi,nhơn năm (nhưn năm),nhi lơm .,,,nhi 
+Các anh đi,Đe 'nhŏng năm,đe 'nhŏng năm .,,,đe 'nhŏng năm 
+Họ đi,Đe năm,kơtum kơtŏng kih .,,,kăn hơ năm tơ pul 
+Nó gặp tôi,Hơ tơjrâm ĭnh ,hăp tơpau inh .,,,hơ năm tơ ơ̆u 
+Nó gặp anh,Hơ tơjrâm 'nhŏng,hăp tơjrưm .,,,hơ tơjrưm măt 
+Nó gặp cô ấy,Hơ tơjrâm maĭ 'nŏh,hăp tơpau duch ơ̆i .,,,hơ bĕng đau kơdơ̆u tơ ơ̆i . 
+Nó gặp anh ấy,Hơ tơjrâm 'nhŏng 'nŏh,hăp tơpau 'nhŏng ơ̆i .,,,hơ năm bơdô̆ hơ . 
+Nó gặp chúng tôi,Hơ tơjrâm nhơn,hăp tơpau nhi .,,,hơ sưt nhơn 
+Nó gặp các anh,Hơ tơjrâm 'yĕm 'nhŏng,hăp tơpau đe 'nhŏng .,,,hơ 'yoh 
+Nó gặp họ,Hơ tơjrâm kăn hơ,hăp tơpau kơtum kơtŏng .,,,hơ năm tơ bơ̆l . 
+Nó cho tôi một quyển sách,Hơ ăn nhin hla săch ,hăp ăn inh minh tơ̆p sơ̆p hla bơ-al .,,,hơ ăn kơ inh minh kơ 'ban amăn jên 
+Nó nghĩ về anh,Hơ tơ dŏ ăn kơ 'nhŏng,hơ chro đon lơ̆m nhŏng .,,,Đe hơ-yoh liêm lơ̆m chŭn đôi 
+Nó lo lắng cho cô ấy,Hơ chro lư ăn duch 'nŏh,hơ chro ăn duch ơ̆i .,,,hơ chro ăn duch . 
+Nó đi cùng với chúng tôi,Hơ năm adrĭng lu nhơn,hăp kih adơi sơm nhi .,,,hơ năm adrĭng nhơn 
+Nó vui sướng vì tôi,Hơ hưch hanh yua kơ ĭnh,hăp hyôk yuô inh .,,,hơ 'yoh 
+Cha của tôi,'Bă ĭnh,'bă đơng inh .,,,'bă đei 
+Mẹ của tôi,Mĭ ĭnh,mĭ đơng inh .,,,mĭ hăm bơ̆n 
+Anh của nó,'nhŏng hơ,'nhŏng đơng pơdơi .,,,'nhŏng dih bơl 
+Chị của nó,Mai hơ,mai đơng pơdơi .,,,mai oh 
+Ông của các anh,'Bok 'yĕm 'nhŏng,'bok đơng đe 'nhŏng .,,,'bok đe 'nhŏng 
+Bà của các anh,Yă 'yĕm 'nhŏng,yă đơng đe 'nhŏng .,,,yă hơ 'yoh 
+Em trai của họ,ŏh tơhnglo kăn hơ,oh tơhnglo đơng đe .,,,oh tơhnglo 
+Em gái của họ,ŏh kơdyŏng kăn hơ,oh kơdiŏng đơng đe .,,,oh kơdiŏng đơng đe hyoh 
+Tất cả các ông,Đĭ đăng đe 'Bok,đĭ rim 'bok .,,,đĭ đăng rim 'bok 
+Tất cả các bà,Đĭ đăng đe yă,đĭ rim yă .,,,lơ̆m yă 
+Nhiều chàng trai,Lư đe tơ dăm,lư c ao tơhnglo .,,,lư sơnăm 
+Nhiều cô gái,lư đe adrŭh,lư duch kơdiŏng .,,,lư duch 
+Một vài anh,'Ban Pêng 'nâu 'nhŏng,minh weng 'nhŏng .,,,minh 'nhŏng 
+Một vài chị,Mĭnh 'ban 'nâu mai,minh weng mai .,,,minh 
+Người đàn ông ấy (này),Bơngai 'bok mơ 'nŏh,bơngai tơhnglo ơ̆i ( 'nơ̆u ) .,,,bơngai hơ yoh . 
+Người đàn bà ấy (này),Bơngai kơdyŏng 'nŏh ,bơngai ư ơ̆i ( 'nơ̆u ) .,,,bơngai kon uch 
+Những người ấy (này),Lu bơngai 'nŏh,rim bơngai 'noh ( 'nơ̆u ) .,,,rim bơngai noh ! 'nơ̆u 
+Một người đàn ông (nào đó) đang đi,Mĭnh 'nâu bơngai tơhnglo đang năm,một bơngai tơhnglo ( mă như ơ̆i ) atung kih .,,,minh 'nu bơngai kon kơdiŏng uch 
+Một người đàn bà (nào đó) đang đi,Mĭnh 'nâu tŭ yuă đang năm,một bơngai ư ( mă như ơ̆i ) atung kih .,,,minh 'nu bơngai 'bok ria atung 'yung 
+Một người (nào đó) đang đi,Mĭnh 'nâu atŭng năm,một bơngai ( mă như ơ̆i ) atung kih .,,,minh bơngai [UNK] noh năm piêu 
+Những người (nào đó) đang đi,Kăn hơ atŭng năm,rim bơngai ( mă như ơ̆i ) atung kih .,,,rim bơngai [UNK] noh năm piêu 
+Đây là nhà tôi,'Nâu hnam ĭnh,tơ-ơ̆u la hnam inh .,,,anu la hnam bơ̆n 
+Người này là cha tôi,"'nâu, 'bă ĭnh ",bơngai 'nơ̆u la 'bă inh .,,,bơngai anu la ơ 'bă inh 
+Người này là mẹ tôi,"'nâu, mĭ ĭnh",bơngai 'nơ̆u la mĭ inh .,,,bơngai anu la mĭ bơ̆n . 
+Những người này là bạn tôi,Đe 'nâu đĭ đăng buân ĭnh,rim bơngai 'nơ̆u la 'ban inh .,,,rim bơngai anu la đôi tương 
+Kia là đàn gà của tôi,"To 'nŏh, Ktum iêr ĭnh",to la tơpul 'yĕr đơng inh .,,,tơ to 
+Con kia là gà mái,Mơ to 'yĕr yŏng,pôm to la 'yĕr yŏng .,,,kon tơ to 
+Con kia là con trống,Mơ to 'yĕr tơ 'mông ,pôm to la kon bĭ .,,,kon tơ to 'nĕi kon nĕ pă 
+Những con gà kia là của người hàng xóm,Đĭ đăng ŭhto 'yĕr đe kon pơlư̆,rim tŏ 'yĕr to la đơng bơngai rim pơlei .,,,tơmam ram tơ to . . . la bơngai lư bơngai lư 
+Ở đây là ruộng,'Nâu tơ nâu ruông 'ba,wơ̆i tơ-ơ̆u la bal .,,,uĕi ơ̆u la bal 
+Đằng kia là núi,găh to kông,gah to la kông .,,,minh to la công 
+Học sinh,Đe hơ 'yŏh hnam trương,hok sinh .,,,hok sinh 
+Một học sinh,Mĭnh 'nâu h'yŏh hnam trương,một hok sinh .,,,minh hok sinh 
+Hai học sinh,'ban đe hơ 'yŏh hnam trương,hai hok sinh .,,,'bal 'nu hok sinh 
+Những người học sinh (ấy),Lu đe hơ 'yŏh hnam trương,rim bơngai hok sinh ( 'noh ) .,,,rim bơngai hŏk sinh [UNK] 
+(Tất cả) các học sinh ấy,Đĭ đăng đe hơ 'yŏh 'nŏh,( đĭ ) rim hok sinh ơ̆i .,,,('boi lơ̆m rim hŏk sinh ơ̆i 
+Trâu,kơpô,kơpô .,,,kơpô 
+Một con trâu,Mĭnh tŏ kơpô,một tŏ kơpô .,,,minh tŏ kơpô 
+Hai con trâu,'bar tŏ kơpô,hai tŏ kơpô .,,,'bal tŏ kơpô 
+Những con trâu (ấy),Khun kơpô,rim tŏ kơpô ( 'noh ) .,,,kơpô kơpô [UNK] 
+(Tất cả) các con trâu (ấy),Khun kơpô 'nŏh,( đĭ ) rim tŏ kơpô ( 'noh ) .,,,( lơ̆m 'noh . . . ) 
+Chuối,pit,pit .,,,pit 
+Một cây chuối,Mĭnh hlah 'long pit,một 'long pit .,,,minh 'long pit 
+Hai cây chuối,'Bar hlah 'long pit,hai 'long pit .,,,'bal hlak 'long pit 
+Những cây chuối (ấy),lư 'long pit,rim 'long pit ( 'noh ) .,,,rim 'long pit [UNK] 
+(Tất cả) các cây chuối (ấy),đĭ đăng 'long pit 'noh,( đĭ ) rim 'long pit ( 'noh ) .,,,( lơ̆m 'long pit [UNK] 
+Bàn,Ban,'ban .,,,'ban 
+Một cái bàn,Mĭnh tŏ ban,một hlak 'ban .,,,minh 'nu 'nhŏng 
+Hai cái bàn,'bar tŏ ban,hai hlak 'ban .,,,'bal tŏ 
+Những cái bàn (ấy),Mŏch mang tŏ ban,rim tŏ 'ban ( 'noh ) .,,,rim to hnam (đưng rŏng ơ̆u 
+(Tất cả) các cái bàn (ấy),lư tŏ ban,( đĭ ) rim tŏ 'ban ( 'noh ) .,,,( lơ̆m 'noh . 
+Cái sân rộng,'măng cham xă,hlak măng cham wơ̆l .,,,hlak măng cham awal . 
+Con chó đen,kŏ găm,kŏ găm .,,,kŏ găm 
+Con lợn béo,'bhŭng beh,tŏ nhŭng bek .,,,tŏ nhŭng 
+Sợi dây dài,tơ 'lĕi đuôĭ,tơlĕi đuôĭ .,,,tơlĕi 
+Cây ngô cao,'long hơ'bo 'đuôĭ,long hơbo yơl .,,,'long hơbo 
+Cô gái đẹp kia,ŏh liêm to 'nŏh,duch kơdiŏng liêm to .,,,duch pơđam tơ to . . 
+Hòn đá nặng đó,Tơ 'mơ tơrăp 'nŏh,tơmo trăp ơ̆i .,,,tơmo 'noh 
+Con dao sắc ấy,Xăng han,hlak săng han ơ̆i .,,,hlak săng han 
+Con chó dữ này,kŏngang (Kŏ ngang),kŏ nưih brư̆ 'nơ̆u .,,,kŏ nưih liêm 
+Ngôi nhà gỗ rộng 5 gian của anh,Hnam xă pơ đăm plaih dĭ 'nhŏng,tŏ hnam 'long să pơđăm alah plach đơ̆ng nhŏng .,,,hnam 'long pơlĕi să pơđăm jĭt jĭ dêch đơ̆ng yŏng 
+Hai tập giấy trắng này của chị,'bar sâp hla pơar 'nâu dĭ mai,hai adon pơsuh 'bak 'nơ̆u đơng mai .,,,'bal tŏ hla bơ-al 'nơ̆u đơng mai oh 
+Cá thu,Ka thu,ka thu .,,,ka 
+Chim sẻ,xem yuôn,sem prum .,,,sem chap 
+Hoa sen,Pơ kao sen,sen .,,,sen 
+Hột lựu,plai mrơm,gĕl ự .,,,gĕl 
+Lá chuối,hla pit,hla pit .,,,hla pit 
+Hột cát,gĕr chuôih,gĕl chuôh .,,,gĕl 
+Cục vàng,Chơ nô̆ măih,pơluk pơlăk 'brơ̆u .,,,pơluk pơlăk 
+Đàn vịt,khur ada,đàn ada .,,,đàn 
+Tờ giấy,hla pơar,hlak hla bơ-al .,,,hlak hla bơ-al 
+Cân gạo,Pơ têng phe,kăt 'ba .,,,kăt 'ba 
+Tạ gạo,Hrĕng pơ tông phe,ta 'ba .,,,sơđa 
+Thước vải,dŏ brai,thươ̆k chê .,,,thươ̆k chê 
+Lít dầu,Hnŏng jâu,long jra jơ̆u .,,,'long jra 
+Con gà,'yĕr,tŏ 'yĕr .,,,tŏ 'yĕr 
+Con thuyền,thŏng,pôm thŏng .,,,kon thŏng 
+Con sông,krong,hlak krong .,,,hlak krong 
+Con đường,trong,kon trong .,,,kon trong 
+Con dao,xăng,hlak săng .,,,hlak săng 
+Quả cảm,plĕi kruô̆i ngam,plĕi ngoh .,,,plĕi 
+Tờ báo,hla baŏ,hlak pơ-ang .,,,hlak 
+Một con bò,Mĭnh tŏ lơ mo,một lơmo .,,,minh tŏ 
+Hai con ngỗng,‘bar to kon ngông,hai pôm lap .,,,yang kon 
+Ba con mèo,pêng tŏ kon meo,ba pôm meu .,,,'ba kon tơring 
+Năm con ngan,Pơ đăm tŏ kon ngan,năm pôm lơnga .,,,sơnăm rŏng 
+Đường số một,Trong kuam (1),trong ksô minh .,,,trong sô̆ 
+Quốc lộ 14,T.qong Mĭnh jŭ puôn,Quốc Lộ 14 .,,,quôc phongan ninh đĕi 
+Giường một,Yong minh nu,jương minh .,,,jương minh 
+Mâm sáu,Pham đâm,mơ̆m drơ̆u .,,,mơ̆m 
+Bộ ba,Hrơm pêng,bô̆ pêng .,,,bô̆ 
+Lớp hai,Lơp 'bar,jĕl 'bal .,,,jĕl 'bok 'bar 
+Năm 1984,Xơ hnăm nĭnh a.bâu tơ xĭn hriê̆ng tơh 'yum jŭ puôn ,năm 1984 .,,,năm 
+Cô gái 16 tuổi,A druĭh mĭh jŭ tơ drơm xơh năm ,duch kơdiŏng 16 sơnăm .,,,duch kon [UNK] 
+Vườn ổi,Cham ôi,teh dal hnam ôi .,,,vươn tưng 
+Vườn của cha tôi,Cham 'bă ĭnh,teh dal hnam đơng 'bă inh .,,,vươn ươm đơ̆ng 'bă bơ̆n 
+Bàn học,băn hŏk,'ban hok .,,,'ban hŏk 
+Bàn kê trong góc,băn xư̆ lâm kơ chŏ,'ban sơn lơ̆m kơsŏ .,,,'ban nhân sơn lơ̆m kơchŏ 
+Sáng nay,Pơ ghê hei,rang ahrĕi .,,,rang 
+Chều mai,Kơ xơ̆ tơ 'ning,blăn 'năr dơning .,,,blăn 
+Nhà trong,Hnam tơ lăm,hnam lơ̆m .,,,hnam uĕi 
+Cổng trước,Dur cham,dul adrol .,,,dul 
+Sân gạch,'yêr uôh (cham xâm găt),măng cham gach .,,,jung kung 
+Nước đường,Đak 'bĕng,đak trong .,,,đak trong 
+Mặt trái xoan,Mĕt apôm,Mặt Trái Xoan .,,,'yŭ adrin 
+Lông mày lá liễu,Xŏh kơ mul mĕt pơ 'liêu,e ih hla blăn .,,,e năm hmŏng đak 
+Anh ấy đến chiều qua,'nhŏng trŭh kơ xơ̆ abri,'nhŏng ơ̆i truh kơsơ̆ yuô ơu .,,,'nhŏng truh kơsơ̆ yư̆m yư̆m hơ sưt 
+Cô ấy đã đến đây,Duch jơ̆h trŭh tơ âu,duch 'noh jơh truh tơ-ơ̆u .,,,duch 'noh jơh truh tơ ơ̆u 
+Họ đến năm ngoái,Kaŭ hơ tơ xơ rŭh hăm a rŏng,kơtum kơtŏng truh sơnăm rŏng .,,,pre hơ năm tơmang dôm tơmăn 
+Ngày mai anh ấy đến,Tơ ning 'nhŏng 'nŏh trŭh,'năr dơning 'nhŏng ơ̆i truh .,,,'năr dơning 'nhŏng năm truh . . . 
+Tuần sau cô ấy đến,Đư̆ng rŏng duch 'nŏh trŭh ,apach đưng kơdŭ duch ơ̆i truh .,,,tuơ̆n đưng rŏng truh 
+Ngày kia họ đến,'năr tơ muôh kăn hơ trŭh,'năr dơnuônh kơtum kơtŏng truh .,,,'năr dơnuônh 
+Hôm nay anh ấy nghỉ học,'năr adrâu 'nhŏng pơ dĕi hŏk,'năr adrơu 'nhŏng ơ̆i hơ hok .,,,'năr adrơ̆u 'nhŏng ơ̆i năm hok . 
+Hôm nay cô ấy lên nương,'năr adrâu duch nhơn năm tơ mir,'năr adrơu duch ơ̆i suôn na .,,,"'năr adrơ̆u , năm tơmưt pơm "
+Hôm nay họ đốt rẫy,'năr adrâu kăn hơ xŏh mir,'năr adrơu kơtum kơtŏng 'buh mir .,,,'năr adrơ̆u mai oh năm . 
+Trước đây tôi ở buông làng,Xơ̆ ĭnh oĕi lâm pơ 'lĕi,adrol măt inh uĕi tơ'nglaih pơlĕi .,,,kơsơ̆ ơ̆u uĕi jê̆ pơlĕi . 
+Bây giờ tôi sống ở Buôn Ma Thuột,Ahrĕi ơ̆u ĭnh oĕi lâm Buôn Ma Thuột,ahrĕi ơu inh arih uĕi Buôn Ma Thuột .,,,"ahrĕi ơ̆u , inh arih uĕi 'băl jĭt . "
+Năm nay tôi sẽ đi Sài Gòn,Xơ năm âu ĭnh ră năm T!rŭnh Sai Gon,sơnăm ơ̆u inh liêm lơm Sài Gòn .,,,"sơnăm ơ̆u , tơdrong năm tơ bơ̆l . "
+Tôi sẽ sống ở đó 4 năm,ĭnh oĕi lâm puôn xơ hnăm,inh liêm arih uĕi 'noh 4 đăm .,,,inh arih uĕi 'noh puôn sơnăm . 
+Tôi đã từng sống ở đây,ĭnh jơ̆h arĭh jaĭ hơ âu,inh jơh rim arih wơ̆i tơ-ơ̆u .,,,inh jơh rim tơdrong uĕi ơ̆u 
+"Trời mưa từ chiều qua, bây giờ vẫn còn mưa","Kơ xơ abri, adrâu plănh ara 'mi dach","plĕnh 'mi đưng kơsơ̆ yuô ơu , 'boh ară 'mi .",,,"plĕnh măng mă anu , ahrĕi ơ̆u , 'boh ară ami "
+Trời sẽ mưa,plănh vă 'mi,plĕnh liêm 'mi .,,,plĕnh 'mi 
+Trời sắp mưa,plănh chŏ că 'mi,plĕnh bươ 'mi .,,,plĕnh bươ 
+Cơm vừa chín,Por 'nao xin,ngoh bươ đum .,,,wă bươ 
+Chiếc áo mới mua,Ao 'nao tuôt,tŏ au 'nao ruôt .,,,hlak au anao 
+"Ngày mai, mặt trời chưa mọc tôi đã đi rồi","Pơ ghê tơ 'ning, 'năr đim lăch ĭnh chơ vă năm","'năr dơning , măt 'năr đim hon inh jơh năm 'noh .",,,'năr dơning măt 
+Tôi đọc sách suốt ngày và đã đọc xong hai quyển,Ing pơ re hla ar plăt năk păng pôre đĭ bar kơ xâp,inh chih sơ̆p hla bơ-al plăt năr weng jơh chih hơleh 'bal tơ̆p .,,,inh chih jŭng hla bơ-al weng jơh 'yŏk hơleh . 
+Hôm qua tôi đã giã gạo và đã giã xong 10 cối,abri jơ̆h pĕh phe đĭ đăng đĭ mĭnh jĭh tơ păr,'năr abri inh jơh peh 'ba peh weng jơh peh keh 10 tơpal .,,,'năr abri inh jơh peh 'ba peh 'ba weng jơh jê̆ hơ keh kong adrol minh jĭt năm . 
+Ngày mai tôi sẽ làm xong việc ấy,Tơ ning ĭnh pơm xong tơ drong ‘nŏh,'năr dơning inh liêm pơm keh tơdrong 'noh .,,,'năr dơning mĭ pơm tơdrong jơh keh kong tơdrong pơm 
+May xong áo,Ao xĭh jơ̆h a lĕh,sĭt hơleh au .,,,sĭt au 
+Ăn cơm rồi,Xa ngoh kơ xơ̆,sa ngoh 'noh .,,,sa ngoh 
+Nó đã dậy rồi,Hơ jơ̆h năm,hơ jơh yung 'noh .,,,hơ jơh pơm 
+Tôi vừa đi vừa hát,ĭnh jâng yah 'bar jŏh,inh bươ năm bươ joh .,,,inh bươ năm bươ năm . 
+Nó mỉm cười nhìn tôi,Hơ pơ 'yôm dĕk hnĕi ĭnh,hăp nguk dĕk ngŏ inh .,,,hơ 'yoh ngŏ hnhĕi 
+Nó giận giỗi bỏ đi,Hơ đŭnk brư̆ klak năm lâh,hơ đuk tuk .,,,hơ plach 
+Cô ấy vừa đẹp người vừa đẹp nết,Duch 'noh liêm đĭ tơ dơrong,duch ơ̆i bươ liêm bơngai bươ liêm kŭ̆t .,,,duch bưa wă pơgloh hưch hanh 
+Cô ấy đã chết,Duch 'noh jơh luôch,duch 'noh jơh luôch .,,,duch 'noh 
+Giặc Mỹ đã giết cô ấy,A yăt My jơ̆h 'bet duch 'nŏh,giăc Mỹ jơh adrĭng duch ơ̆i .,,,"bơdrưng , my jơh adrĭng duch . "
+Cô ấy đã chết vị bị giặc Mỹ giết,Duch 'nŏh luôch kơ yu a yăt My 'bet,duch 'noh jơh luôch yuô bi giăc Mỹ 'bet .,,,duch 'noh 
+Cái chết của cô ấy làm tôi rất đau khổ,"Lô dêh, duch 'nŏh jơ̆h luôch",hlak luôch đơng duch ơ̆i pơm bơ̆n dêh bĭ nan .,,,hlak luôch bĭ ăn đe kră sơ̆ bĭ ơĭ tơdrong hrap tơnat 
+Hành động giết người của giặc Mỹ làm cho mọi người đều căm giận,My 'beh bơ ngai dĭ đăng bu bu jơ̆h arĕh tŭk a'yăt My,hanh đông adrĭng bơngai đơng giăc Mỹ pơm ăn rim bơngai hơdơi hil đuk .,,,hanh đông adrĭng bơngai đơng nă ma pơm ăn rim bơngai hơdơi brư̆ đuk . 
+Cha lên rừng chặt cây,'Bă năm tơ bri kŏh 'long,'bă suôn bri koh long .,,,'bă năm bri koh 'long . 
+Những cây bị chặt được xếp thành đống,‘long jơ̆h kŏh xư̆ bănh mĭnh a nĭh,rim lương bi al đĕi adon pơnih pơnŭ .,,,rim 'long 'bĭ đĕi pơtơ̆p luyên 'long 
+Cha chặt cây bằng riều,‘Bă kăr ‘long xĭm xung,'bă koh long tơmăn ôm .,,,'bă koh 'long sriêng 
+Nó gõ cửa,Hơ kơ gŏ 'măng,hăp gơgŏ 'măng .,,,hơ năm 'măng tơm 
+Gõ nhè nhẹ,Kơ gŏ adar adrar,gơgŏ nh .,,,gơgŏ ŭnh 
+Gõ lại,Kơ gŏ piêu,gơgŏ piêu .,,,gơgŏ 
+Gõ to hơn,Kơ gơ̆ giông piêu,gơgŏ grông loi .,,,gơgŏ grông loi 
+Mẹ may áo,Mĭ sĭt ao,mĭ sĭt au .,,,mĭ drong koan ly̆ 
+"Áo không vừa, mẹ tháo ra may lại","Ao bĭ lŭn, mĭ lanh xĭh piêu","au bĭ bươ , mĭ plôh sĭt piêu .",,,"au bĭ liêm , mĭ nghê nghiêp weng pơlĕi linh "
+Người thợ mộc đóng bàn,Bơngai pơkăp kơbang,bơngai gru pắt 'ban .,,,bơngai gru ăn đôi viên 
+Chiếc bàn đã được người thợ mộc đóng xong,Kơbang mu hơ mọc xang pơ kap klaih,tŏ 'ban jơh đĕi bơngai gru pắt hơleh .,,,e hăm khĭ . bơngai đei keh kong duh 
+Bàn làm bằng gỗ lim,Kơbang bơ̆ păng 'long dai mai,'ban pơm tơmăn 'long dơnăng .,,,'ban nhân yân 
+Chiếc bàn đặt ở giữa phòng,Kơbang 'măn ăh tong hơ nê̆ hnam,tŏ 'ban sư̆ wĕi tơ̆k bơk răp .,,,sư̆ bơngai pơtơ̆p sư̆ uĕi tơ̆k bơ̆k 
+Anh cho tôi quyển sách,Nhong an kơ inh ming kơ xâp hla ar,'nhŏng ăn inh tơ̆p sơ̆p hla bơ-al .,,,'nhŏng ăn inh năm hok viên 
+Quyển sách mà anh cho tôi rất hay,hla ar mĕ nhong ăn kơing rơng rŏ jat,tơ̆p sơ̆p hla bơ-al mă lĕi 'nhŏng ăn inh tơpă jah .,,,tơ̆p sơ̆p hla bơ-al ăn bơ̆n phai năm tơ mir . 
+Quyển sách ấy do một nhà văn nổi tiếng viết,hla ar noh yua muhlôh hlăng ang bang chih,tơ̆p sơ̆p hla bơ-al ơ̆i yua minh hnam văn nổi bơ̆l chih .,,,"tơ̆p sơ̆p hla bơ-al , yua minh tŏ kon tơhnglo "
+Tôi đi với cha,ĭnh năm pim xĭm 'bă,inh năm adrĭng 'bă .,,,inh năm pơtơ̆p 
+Mẹ đi chợ về với chiếc giỏ nặng,Mẹ bôk tơ kơ chơ vih păng kơ dung,mĭ năm chơ̆ wih sơm tŏ jak trăp .,,,mĭ năm tơ chơ̆ sưt đam thoi 'noh 
+Nó học bài với anh nó,Hơ hŏk xĭm ĭnh,hơ hok 'bai sơm 'nhŏng hăp .,,,hơ hok 'bai adrĭng hơ . 
+Mẹ cho con bánh,Mĭ ăn kon 'bănh,mĭ ăn kon 'bĕng .,,,mĭ 'bă kon blo 
+Con cảm ơn mẹ,Kon bơne mĭ,pôm bơne mĭ .,,,kon bơne mĭ 
+Vợ nhớ chồng,kơ dyŏng 'blŏk tơhnglo,kơdiŏng băt tơhnglo .,,,kơdiŏng đêch 
+Cô ấy đang nghĩ đến con,Duch 'blŏk kơ ruôih,duch ơ̆i atung chro đon truh kon .,,,duch pơtho khan adrĭng kon tơring 
+Kể chuyện về voi,Roi kơ ruôih,roi tơdrong sưt ruôih .,,,roi tơdrong kơpưng 
+Ra biển,Tơrŭh tơ xĭ,mưt tơsĭ .,,,mưt đak tơsĭ 
+Qua sông,tŏk krong,hluôi krong .,,,kua krong 
+Đi chợ,năm tơ chơ̆,năm chơ̆ .,,,năm tơchơ̆ 
+Nằm màn,'Bĭch kơ mung,'bich hlak .,,,'bich mĭ 
+Ngôi nhà,Hnam,tŏ hnam .,,,tŏ hnam 
+Nói chậm,khan adrar adrar,akhan khĕ .,,,akhan 
+Làm nhanh,Pơ mơ koăng,pơm kuăng .,,,pơm ranh 
+Nghĩ thầm,Tơ tok (don chơ to),chro đon đĭ .,,,chro đon 
+Chết đói,luôch lơviêt,luôch pơngot .,,,luôch bơngot 
+Chết rét,luôch chơ hngĕi,luôch sơhngeu .,,,luôch tơ'ngiêt 
+Đi ra sân,Năm tơrŭh 'măng cham,kih lêch măng cham .,,,năm lêch 
+Đi vào nhà,Mư̆t hơlăm\hnam,kih tơmưt hnam .,,,năm tơmưt hnam 
+Đi lên núi,xuôn kông,kih suôn kông .,,,năm tơmưt kông 
+Đi xuống thung lũng,jur tơ abong,năm jul thung lung .,,,năm jul 
+Nó đi đi lại lại,"Hơ năm năm, oĕi oĕi",hăp năm rŏng .,,,hơ năm 
+Nó leo lên leo xuống,Hơ hao jur dach,hơ hau suôn hau jul .,,,hơ 'yoh 
+Anh ấy bắn được một con chim,'nhŏng 'noh prăh đĕi mĭnh tŏ xem,'nhŏng ơ̆i prah đơ̆i minh pôm sem .,,,'nhŏng tam đơ̆i minh tŏ sem . 
+Cô ấy nhìn thấy tôi,Duch 'nŏh hơ 'bŏh ĭnh,duch 'noh ngŏ 'boh akău .,,,duch pơtho khan 'boh 
+Bà đánh rơi chiếc khăn,Yă noh tơ hyong kơn,yă it đak tŏ che .,,,yă đak tŏ tŏ . . . 
+Chị nghĩ ra cách làm,Mai chơro đon pơm,mai chro đon lêch kach mang pơm .,,,mai chro đon pơm 
+Cha ngồi hút thuốc,'Bă oĕi hĕp thuôk,'bă uĕi hep thuôk .,,,'bă uĕi hep thuôk 
+Chị đi vác nước,Mai năm jŏh đak,mai năm tuôi đak .,,,mai năm pŭk đak 
+Mẹ đi làm,Mĭ năm pơm,mĭ năm pơm .,,,mĭ năm pơm 
+Nó quay lại hỏi tôi,"Hơ vĭnh anô̆, apĭnh",hăp wih rŏng apinh inh .,,,hơ sưt rŏng minh kơ inh 
+Mỗi ngày ăn ba bữa,Mĭnh năr xa pêng 'măng,minh năr sa pêng wal .,,,minh 'nu 'nhŏng oh 
+Mỗi tuần lên nương một lần,Ming 'măng gyang tok tơ kông minh 'măng,minh tuơ̆n suôn mir minh 'măng .,,,minh tuân năm tơmưt pơm minh 
+Điều đó có thể làm được,tơ drong 'noh ĭnh pơm đơ̆i,tơdrong 'noh ơĭ tơdrong pơm đĕi .,,,tơdrong 'noh ơĭ tơdrong pơm hơgei 
+Tôi cần phải học,ĭnh adrôn phai hŏk,inh triêng phai hok .,,,bơ̆n phai hok 
+Anh nên nghỉ ngơi,'nhŏng bơ dĕĭ bĕ,'nhŏng kơna pơdơi kah .,,,'nhŏng tam pơdơi pơdơi ăn 
+Nước chảy,Đak 'yoi,đak 'yol .,,,đak 'yol 
+Gió thổi,Kyar thuôl,kial thuôi .,,,khĭ thuôi 
+Chó chạy,kŏ kơ dâu,kŏ kơdơ̆u .,,,kŏ kơdơ̆u năm 
+Chim bay,Xem păn,sem păii .,,,sem 
+Mèo cắn chó,Meo kăp kŏ,meu kăp kŏ .,,,(meu) glang 
+Chó cắn mèo,kŏ kăp meo,kŏ kuôl meu .,,,(kŏ) kuôl 
+Con lợn nằm trong chuồng,Nhŭng 'bĭch lâm kơdron,tŏ nhŭng 'bich lơ̆m gơdron .,,,tŏ hnam mĭ 'bă sưt teh . 
+Chim bay trên trời,Xem păr tơ plănh,sem păii kơpưng plĕnh .,,,sem ơ̆u 
+Cá bơi dưới nước,ka glơi lâm đak,asĕch klơi gah ala đak .,,,ka klơi 
+Con nằm bên mẹ,kon 'bĭch adrĭng mĭ,pôm 'bich gah mĭ .,,,kon mĭ 
+Tôi là anh  nó,ĭnh la 'nhŏng,inh la 'nhŏng hăp .,,,inh kung 'nhŏng hơ . 
+Tôi đến là để gặp chị,ĭnh trŭh vă tơjrâm mai,inh truh la sư̆ tơjrưm mai .,,,inh truh la ŭnh hnam mai . 
+Hôm nay là ngày tết,'Năr adrâu jŏh tơrŭh tết,'năr adrơu la 'năr sơtêt .,,,'năr ahrĕi la 'năr sơtêt 
+Cô ấy có dáng người cân đối,Duch 'nŏh liêm tơ pă,duch ơ̆i ơĭ liêm bơngai chă yuô .,,,"duch pơtho ơ̆i trach nhiê̆m , chă yuô "
+Ông già tính tình vui vẽ,Kră kơ xĕ,bok kră 'bơ̆l đon hyôk chih .,,,'bok chu weng phong dơt 
+Con gà này mào đỏ chót,Chơ mang 'yŏi gôh,tŏ 'yĕr 'nơ̆u găm .,,,tŏ 'yĕr 
+Chúng ta là bạn cũ,Ba buôi đâng xơ̆,bơ̆n la 'ban kră .,,,bơ̆n la đôi tương 
+Nó rất khỏe,Hơ jăng tơ pă,hăp tơpă pran .,,,hơ adrin . 
+Nhà đông người,Hnam lư bơngai,hnam lư bơngai .,,,hnam lư bơngai 
+Nó cao hơn tôi,Hơ kơ jung loi kơ ĭnh,hăp yơl loi inh .,,,hơ dêh loi minh inh 
+Nó cao bằng tôi,Hơ kơ jung dang ĭnh,hăp c ao inh .,,,hơ 'yoh 
+Nó thấp hơn tôi,Hơ kơđeh loi kơ ĭnh,hăp kơđeh loi inh .,,,hơ kơđeh loi 
+Tôi cao nhất lớp,ĭnh kơ jung glŏh loi lơp,inh kơjung loi jĕl .,,,inh kơjung loi lơ̆p 
+Nó kém tôi ba tuổi,Hơ ala ĭnh pêng xơhnăm,hăp 'biê̆ loi inh pêng sơnăm .,,,hơ 'yung minh inh 
+Nó ít tuổi hơn tôi,Hơ 'biê̆ xơhnăm loi ĭnh,hăp 'biê̆ sơnăm loi inh .,,,hơ 'yung sơnăm mă minh 
+Nó ít tuổi nhất,Hơ bơngai xơhnăm gloh ken,hăp 'biê̆ sơnăm loi .,,,hơ yoh . 
+Nó cao hơn tôi một gang (tay),Hơ đuô̆i loi ĭnh mĭnh xơđa,hăp yơl loi inh minh gang ( ti ) .,,,hơ dêh loi minh inh . 
+"Tiền nó có, vàng nó cũng có",Hơ bơngai bơ drŏng,"jên hăp 'nhăt , bia hăp hơdơi ơĭ .",,,"jên hơ ơĭ , bia pơgloh "
+Cô ấy không nuôi con,Dŭch 'nŏh byơ̆h rong kon,duch ơ̆i bĭ rong kon .,,,duch bĭ kon 
+"Việc nhà, cô ấy không làm",Kơ drong ĭnh hnam koă pơm,"tơdrong hnam , duch ơ̆i bĭ pơm .",,,"tơdrong hnam , bĭ pơm "
+Ai nó cũng thương,Hơ ba ba kmăng mơ nat,bu hăp hơdơi wă .,,,bu kung 
+"Dân bản, ai cũng tốt",Kon pơlĕi đĭ đăng bu kung lâng liêm,"nă ma , bu kung đĕi .",,,nă ma 
+"Con gái ở đây, cô nào cũng đẹp","Hăn âu, adrŭh ma như kung liêm","kon kơdiŏng wơ̆i tơ-ơ̆u , duch mă như kung liêm .",,,kon kơdiŏng uch 
+"Rượu cần, thứ nào cũng ngon",Chơdrô tôm ma như kung nham,"sơdrô triêng , thư̆ mă như kung nham .",,,"sơdrô triêng , mă như kung ăn nă ma kung . "
+Ai ?,Ba,bu ? .,,,bu yưng ? 
+Anh hỏi ai ?,'nhŏng pĭnh bu ?,'nhŏng apinh bu ? .,,,'nhŏng 'bơ̆l et hơleh ? 
+Ai bảo anh thế ?,By khan 'nhŏng lĕi ?,bu pơđam ăn 'nhŏng tơnglơ̆i ? .,,,bu alê̆ gô 'nhŏng yơh ? 
+Anh đi bao giờ ?,'nhŏng năm lơ như,'nhŏng năm lanhư ? .,,,'nhŏng năm lanhư ? 
+Bao giờ anh đi ?,lanhư 'nhŏng năm,layơ 'nhŏng năm ? .,,,lanhư 'nhŏng năm ? 
+Anh đi chơi không ?,'nhŏng hăn vă năm ngôi,'nhŏng năm sơhmanh bĭ ? .,,,'nhŏng năm sơhmanh ĕ 
+Anh ăn cơm chưa ?,'nhŏng tam xa,'nhŏng sa ngoh đim ? .,,,'nhŏng oh yơh ? 
+Nhà có mấy người ?,Hnam dôm 'nâu,hnam ơĭ dôm bơngai ? .,,,hnam ơĭ dôm yơ ? 
+Bắn được bao nhiêu con ?,Rôp dôm tŏ kon,prah đơ̆i dôm kon ? .,,,prah đơ̆i dôm tŏ kon ? 
+Anh đi đâu ?,'nhŏng năm tơ như,'nhŏng năm tơyơ ? .,,,'nhŏng năm tơnhư ? 
+Nó nằm chỗ nào ?,Hơ 'bĭch hăn như ?,hăp 'bich hăn như ? .,,,hơ uĕi hăn như ? 
+Anh tìm cái gì ?,'nhŏng chă yư̆ng,'nhŏng chă yưng ? .,,,'nhŏng yưng ? 
+Cái gì thế ?,yư̆ng 'nŏh,yưng tơnglơ̆i ? .,,,yưng ? 
+Anh đi chơi hay ở nhà ?,"'Nhŏng oĕi hnam, hăm vă năm ngôi",'nhŏng năm sơhmanh liêm lơ̆m hnam ? .,,,'nhŏng năm sơhmanh tơ hnam bơ̆n ? 
+Anh đi hay tôi đi ?,'Nhŏng năm lăng ĭnh năm,'nhŏng năm thoi inh năm ? .,,,'nhŏng năm tiê̆ 'yem năm năm ? 
+Có ai hỏi gì tôi không ?,Haŭ ơ̆i bu pĭnh ĭnh,ơĭ bu apinh yưng inh bĭ ? .,,,Ơĭ bu 'nĕi yưng ? 
+Có ai đi chưa ?,Tam bu năm,ơĭ bu năm đim ? .,,,Ơĭ bu 'nĕi arĕ năm đim ? 
+Cô ấy hát hay quá!,Duch 'nŏh jŏh dê̆ tơpă,duch 'noh oh liêm hluôi ! .,,,duch pơđam liêm ! 
+Hoa đẹp làm sao!,Pơkao 'nâu liêm dêh,pơkau liêm diong ! .,,,pơkau liêm 
+Chúc mừng năm mới!,Drơng 'yŏk xơ hnăm 'nao,hưch hiăn đăm 'nau ! .,,,hưch hanh anao ! 
+Ước gì cô ấy là vợ tôi!,Drơn la như duch 'nŏh kơdyŏng ĭnh ,tep hlơ̆k yưng duch 'noh la kơdiŏng inh ! .,,,apo 
+Mong anh khỏe mạnh!,Vă 'nhŏng grăng pran ling lang,dih 'nhŏng alưng liêm ! .,,,'yem kon liêm yơh ! 
+Anh đi đường bình an nhé!,'nhŏng năm mă lâng hŏ,'nhŏng năm trong binh an yơh ! .,,,'nhŏng năm ngŏ hnhĕi jư vĕi an toan 
+Ăn đi!,Xa bĕ,sa năm ! .,,,sa năm ! 
+Cứu tôi với!,Mơ koăng dăng ĭnh,đŏng inh sơm ! .,,,đŏng akău soh 
+Hãy nhớ lấy lời tôi!,"'yŏk, kuôt 'bâr ĭnh khan",nĕ 'blŏk 'yŏk bơ̆l inh ! .,,,"nĕ 'blŏk , 'blŏk 'yŏk lưk lương "
+Hãy tha thứ cho tôi!,Tơ nglaih yua ăn kơ ĭnh,nĕ dih ăn inh ! .,,,nĕ pă ăn bơ̆n khĭ 
+"Tiến lên, anh em ơi!","Dŭk ti, 'nhŏng ŏh bân","năm suôn , 'nhŏng oh trương ! .",,,năm tơmưt kon mon tŭk trương 
+Giơ tay lên!,Xro ti,jơro ti suôn ! .,,,jơro ti 
+Đừng quên tôi!,Nĕ hyơ̆h ĭnh,nĕ hyơt inh ! .,,,"'blŏk , sem inh "
+Chớ tin nó!,Nĕ lui hơ,nĕ tin hơ ! .,,,nĕ pă tin lưng 
+Tôi thấy nó đang ăn,ĭnh 'bŏh hơ anơ̆ xa,inh 'boh hơ atung sa .,,,inh 'boh 
+Tôi gọi nó về,ĭnh krao hơ xưt,inh krau hăp wih .,,,inh krau kơ dih sưt 
+Cha tôi đi rừng còn tôi ở nhà,"‘Bă ĭnh năm tơbri, ĭnh oĕi hnam",'bă inh năm bri ară bơ̆n lơ̆m hnam .,,,'bă inh năm tơ bri ară lư kơ inh 
+Nếu trời mưa thì tôi không đi,"Plănh 'mi, ĭnh bĭ năm",mơtơ̆ng plĕnh 'mi thoi inh bĭ năm .,,,"tơ̆ng plĕnh jơnang năm tơkan , bơ̆n khĭ . "
+Vì nó nên tôi bắn trượt,"yua hơ, inh kơ lŭng",yuô hơ kơna inh prah lơhach .,,,"yuô hơ jơh ơ̆p hơleh , khul thương vu "
+"Người nào làm, người ấy ăn","Bu pơm, hơ pŭ","bơngai mă như pơm , bơngai 'noh sa .",,,"bơngai mă yơ pơm , bơngai năm . "
+"Anh đi đâu, tôi đi đấy","'Nhŏng năm tơ như, inh năm trŭh toĕi","'nhŏng năm tơyơ năm , inh năm 'noh .",,,"'nhŏng năm năm tơ chơ̆ năm , inh năm . "
+"Mẹ bảo sao, con nghe vậy","Mĭ khan yư̆ ng, kon pơm lơĕi","mĭ pơđam ăn sơnglŏng , kon kơtơ̆ng lơ̆i .",,,"mĭ đe hơ-yoh , kon kơtơ̆ng sơ̆ . "
+"Tuy trời lạnh, tôi vẫn đi làm",'Naĭ chơ hngĕi ĭnh văn năm pơm,"trương plĕnh tŏ , inh ară lơm pơm .",,,"'năr plĕnh , bơ̆n ară lơ̆m pơm "
+"Bao giờ anh đi, bấy giờ tôi cũng đi","La như 'nhŏng năm, ŏh kŭng năm","layơ 'nhŏng năm , layơ inh kung năm .",,,"layơ năm năm ayô lơ̆m 'noh , lanhư kông kung năm . "
+Thà nhịn chớ không ăn cái ấy,Xa pơm yư̆ng mơ 'nŏh.,ba ơ̆t nĕ bĭ sa hlak 'noh .,,,'ba đak bơ̆n nĕ pă sa . 
+Thà chết còn hơn,Luôch lê̆ yă loi,ba luôch ară loi .,,,'ba luôch loi . 
+"Mẹ càng chiều, con càng hư","Mĭ mêm dang như, kon hư dang ĕi","mĭ kang kơsơ̆ , kon kang .",,,mĭ kang năm tơ bơ̆l . 
+Trời ngày càng ấm,"'năr ayư̆m, ayư̆ng",plĕnh năr kang tơnŏ .,,,'năr kang 
+Tôi không biết đàn,Ing bĭ gơh tanh,inh pă lê̆ đàn .,,,inh bĭ alê̆ kơtum 
+Trời không mưa,plănh khĭ 'mi,plĕnh bĭ 'mi .,,,plĕnh 'mi 
+Cha chưa về,'Bă đim xưh,'bă đim sưt .,,,ơ đim sưt 
+Bà chưa đến 80 tuổi,'Bă đim trŭh tơ hngam yĭh xơhnăm,yă đim truh 80 sơnăm .,,,yă đim truh tơhngam jĭt sơnăm 
+Việc ấy không phải dễ,Tơdrong 'nŏh pơm chơ bŏ 'buônh,tơdrong 'noh bĭ phai hlău .,,,tơdrong mă lĕi bĭ phai hlău 
+Nó không phải là thợ săn,Hơ bĭ lăh chă ayô,hăp bĭ phai la gru .,,,hơ bĭ phai (sa) 
+Nó không phải là người tốt,Hơ bơngai klak brư̆,hăp bĭ phai la bơngai đĕi .,,,hơ bĭ phai la bơngai đĕi 
+Tôi không nghĩ rằng nó đến,Bu lê̆ hơ trŭh,inh bĭ chro đon akhan hăp truh .,,,inh yơĭ đe adruh năm truh 
+Làm gì có chuyện ấy,Pơm yư̆ng ơ̆i tơdrong 'nŏh,pơm yưng ơĭ tơdrong 'noh .,,,pơm yưng ? 
+Đâu có chuyện ấy,Bĭ ŏi tơdrong 'nŏh,tơyơ ơĭ tơdrong 'noh .,,,hơ ơĭ tơdrong 'noh 
+Lẽ nào nó nói dối,A lê̆ lơ như hơ khan bĭ tơrŏ,lĭ như hơ tơja .,,,yuô như kon druch 
+Không thứ gì còn,Bĭ ơ̆i yư̆ng piêu,bĭ tơdrong yưng ară .,,,bĭ ơĭ tơdrong yưng ? 
+Chẳng phải ai cũng đồng ý.,ơ̆i kơ tâng ba kŭng adrĭng 'boi,kuă phai bu kung đông yê .,,,kuă phai bu kung gô đêch 
